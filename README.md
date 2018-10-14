@@ -2,6 +2,8 @@
 
 [![PHP](https://img.shields.io/badge/PHP-5.6%2B-blue.svg)](https://secure.php.net/migration56)
 [![Build Status](https://travis-ci.org/webinarium/oauth2-linode.svg?branch=master)](https://travis-ci.org/webinarium/oauth2-linode)
+[![Code Coverage](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/?branch=master)
 
 This package provides Linode OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
