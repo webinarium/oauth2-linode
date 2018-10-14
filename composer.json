@@ -1,0 +1,43 @@
+{
+    "name": "webinarium/oauth2-linode",
+    "description": "Linode OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "type": "library",
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "linode"
+    ],
+    "homepage": "https://github.com/webinarium/oauth2-linode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Rodygin",
+            "homepage": "https://github.com/webinarium"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "league/oauth2-client": "^2.0",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linode\\OAuth2\\Client\\Provider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Linode\\OAuth2\\Client\\Provider\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
