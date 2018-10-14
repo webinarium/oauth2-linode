@@ -1,6 +1,7 @@
 # Linode Provider for OAuth 2.0 Client
 
 [![PHP](https://img.shields.io/badge/PHP-5.6%2B-blue.svg)](https://secure.php.net/migration56)
+[![Latest Stable Version](https://poser.pugx.org/webinarium/oauth2-linode/v/stable)](https://packagist.org/packages/webinarium/oauth2-linode)
 [![Build Status](https://travis-ci.org/webinarium/oauth2-linode.svg?branch=master)](https://travis-ci.org/webinarium/oauth2-linode)
 [![Code Coverage](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webinarium/oauth2-linode/?branch=master)
