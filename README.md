@@ -1,6 +1,7 @@
 # Linode Provider for OAuth 2.0 Client
 
 [![PHP](https://img.shields.io/badge/PHP-5.6%2B-blue.svg)](https://secure.php.net/migration56)
+[![Build Status](https://travis-ci.org/webinarium/oauth2-linode.svg?branch=master)](https://travis-ci.org/webinarium/oauth2-linode)
 
 This package provides Linode OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
