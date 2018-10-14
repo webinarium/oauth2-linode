@@ -67,6 +67,47 @@ if (!isset($_GET['code'])) {
 }
 ```
 
+### Managing Scopes
+
+When creating your Linode authorization URL, you can specify the state and scopes your application may authorize.
+
+```php
+$options = [
+    'state' => 'OPTIONAL_CUSTOM_CONFIGURED_STATE',
+    'scope' => [
+        Linode\OAuth2\Client\Provider\Linode::SCOPE_ACCOUNT_READ_ONLY,
+        Linode\OAuth2\Client\Provider\Linode::SCOPE_LINODES_READ_WRITE,
+    ]
+];
+
+$authorizationUrl = $provider->getAuthorizationUrl($options);
+```
+
+If neither are defined, the provider will utilize internal defaults.
+
+At the time of authoring this documentation, the [following scopes are available](https://developers.linode.com/api/v4#section/OAuth):
+
+- SCOPE_ACCOUNT_READ_ONLY
+- SCOPE_ACCOUNT_READ_WRITE
+- SCOPE_DOMAINS_READ_ONLY
+- SCOPE_DOMAINS_READ_WRITE
+- SCOPE_EVENTS_READ_ONLY
+- SCOPE_EVENTS_READ_WRITE
+- SCOPE_IMAGES_READ_ONLY
+- SCOPE_IMAGES_READ_WRITE
+- SCOPE_IPS_READ_ONLY
+- SCOPE_IPS_READ_WRITE
+- SCOPE_LINODES_READ_ONLY
+- SCOPE_LINODES_READ_WRITE
+- SCOPE_LONGVIEW_READ_ONLY
+- SCOPE_LONGVIEW_READ_WRITE
+- SCOPE_NODEBALANCERS_READ_ONLY
+- SCOPE_NODEBALANCERS_READ_WRITE
+- SCOPE_STACKSCRIPTS_READ_ONLY
+- SCOPE_STACKSCRIPTS_READ_WRITE
+- SCOPE_VOLUMES_READ_ONLY
+- SCOPE_VOLUMES_READ_WRITE
+
 ## Development
 
 ``` bash
